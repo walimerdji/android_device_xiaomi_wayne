@@ -41,8 +41,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CONFIG := wayne-perf_defconfig
 
-TARGET_LIBINIT_EXTERNAL_DEFINES_FILE := $(DEVICE_PATH)/init/init_wayne.cpp
-
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
